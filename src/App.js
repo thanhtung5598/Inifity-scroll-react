@@ -1,5 +1,7 @@
 import React from 'react';
 import List from './List';
+import List2 from './List2';
+
 function App() {
   return (
     <div className="container">
@@ -11,8 +13,11 @@ function App() {
         </div>
       </div>
       <div className="row">
-        <div className="col-12 justify-content-center my-5">
+        <div className="col-6 justify-content-center my-5">
           <List />
+        </div>
+        <div className="col-6 justify-content-center my-5">
+          <List2 />
         </div>
       </div>
     </div>
